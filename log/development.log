@@ -1552,3 +1552,15 @@ Started GET "/geocode?address=london" for ::1 at 2015-07-20 16:22:34 -0700
 Processing by GeocodeController#index as HTML
   Parameters: {"address"=>"london"}
 Completed 200 OK in 695ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=brooklyn" for ::1 at 2015-07-20 16:27:30 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"brooklyn"}
+Completed 200 OK in 928ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=florida" for ::1 at 2015-07-20 16:28:21 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"florida"}
+Completed 200 OK in 676ms (Views: 5.1ms | ActiveRecord: 0.0ms)
