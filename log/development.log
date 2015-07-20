@@ -1534,3 +1534,21 @@ Started GET "/geocode?address=tokyo" for ::1 at 2015-07-20 16:17:39 -0700
 Processing by GeocodeController#index as HTML
   Parameters: {"address"=>"tokyo"}
 Completed 200 OK in 720ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/geocode?address=paris" for ::1 at 2015-07-20 16:21:13 -0700
+Processing by GeocodeController#index as HTML
+  Parameters: {"address"=>"paris"}
+Completed 200 OK in 931ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/geocode?address=tokyo" for ::1 at 2015-07-20 16:22:22 -0700
+Processing by GeocodeController#index as HTML
+  Parameters: {"address"=>"tokyo"}
+Completed 200 OK in 1007ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/geocode?address=london" for ::1 at 2015-07-20 16:22:34 -0700
+Processing by GeocodeController#index as HTML
+  Parameters: {"address"=>"london"}
+Completed 200 OK in 695ms (Views: 5.4ms | ActiveRecord: 0.0ms)
