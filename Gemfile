@@ -10,6 +10,8 @@ gem 'pg'
 gem 'dotenv-rails', :groups => [:development, :test]
 gem 'geocoder'
 
+gem 'awesome_print'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
