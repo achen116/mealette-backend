@@ -47,6 +47,7 @@ GEM
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.10.0)
       faraday (>= 0.7.4, < 0.10)
+    geocoder (1.2.9)
     globalid (0.3.5)
       activesupport (>= 4.1.0)
     i18n (0.7.0)
@@ -115,6 +116,7 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv-rails
+  geocoder
   pg
   rack-cors
   rails (= 4.2.3)
@@ -122,4 +124,4 @@ DEPENDENCIES
   yelp
 
 BUNDLED WITH
-   1.10.4
+   1.10.5
