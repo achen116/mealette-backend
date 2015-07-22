@@ -20,7 +20,7 @@ class ApiController < ApplicationController
     if params[:category]
       category = {term: params[:category]}
     else
-      category = {term: 'pet grooming'}
+      category = {term: 'food'}
     end
 
     result = Yelp.client.search_by_coordinates(coordinates, category)
