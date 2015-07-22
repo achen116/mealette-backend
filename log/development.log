@@ -3493,3 +3493,166 @@ Started GET "/api?address=tokyo&category=pet+grooming&repopulate=1" for ::1 at 2
 Processing by ApiController#index as HTML
   Parameters: {"address"=>"tokyo", "category"=>"pet grooming", "repopulate"=>"1"}
 Completed 200 OK in 658ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from service at /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 14:36:51 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 923ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&repopulate=1" for ::1 at 2015-07-22 14:37:04 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "repopulate"=>"1"}
+Completed 200 OK in 873ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&repopulate=2" for ::1 at 2015-07-22 14:37:09 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "repopulate"=>"2"}
+Completed 200 OK in 997ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 14:37:18 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 902ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&repopulate=1" for ::1 at 2015-07-22 14:37:24 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "repopulate"=>"1"}
+Completed 200 OK in 1123ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 14:37:51 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 1014ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 14:40:56 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 511ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 14:44:32 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 791ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 14:44:58 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 914ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 14:45:10 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 617ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 14:46:42 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 680ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 14:47:28 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 702ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 14:47:58 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 1132ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 14:48:14 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 828ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 14:49:09 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 695ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=120+n+victory+waukegan%2C+il" for ::1 at 2015-07-22 14:49:37 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"120 n victory waukegan, il"}
+Completed 200 OK in 638ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=120+n+victory+waukegan%2C+il&repopulate=1" for ::1 at 2015-07-22 14:49:43 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"120 n victory waukegan, il", "repopulate"=>"1"}
+Completed 200 OK in 777ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 14:50:26 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 669ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 14:50:35 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 485ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 14:50:43 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 514ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 14:51:49 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 602ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 14:51:59 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 574ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 14:53:54 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 559ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 14:53:59 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 687ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 14:54:54 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 809ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 14:56:55 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 562ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 14:57:42 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 668ms (Views: 6.8ms | ActiveRecord: 0.0ms)
