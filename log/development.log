@@ -3474,3 +3474,22 @@ Started GET "/api?address=san+diego&category=barbeque&repopulate=1" for ::1 at 2
 Processing by ApiController#index as HTML
   Parameters: {"address"=>"san diego", "category"=>"barbeque", "repopulate"=>"1"}
 Completed 200 OK in 880ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from service at /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138)
+
+
+Started GET "/api?address=tokyo" for ::1 at 2015-07-22 14:16:19 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"tokyo"}
+Completed 200 OK in 991ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=tokyo&category=pet+grooming" for ::1 at 2015-07-22 14:16:25 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"tokyo", "category"=>"pet grooming"}
+Completed 200 OK in 702ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=tokyo&category=pet+grooming&repopulate=1" for ::1 at 2015-07-22 14:16:27 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"tokyo", "category"=>"pet grooming", "repopulate"=>"1"}
+Completed 200 OK in 658ms (Views: 5.5ms | ActiveRecord: 0.0ms)
