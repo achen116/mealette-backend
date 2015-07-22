@@ -2228,3 +2228,33 @@ Started GET "/api?address=united+states" for ::1 at 2015-07-21 10:46:59 -0700
 Processing by ApiController#index as HTML
   Parameters: {"address"=>"united states"}
 Completed 200 OK in 539ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from service at /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138)
+
+
+Started GET "/api" for ::1 at 2015-07-21 17:27:41 -0700
+Processing by ApiController#index as HTML
+Completed 200 OK in 541ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from service at /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-21 17:28:09 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 629ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api" for ::1 at 2015-07-21 17:30:46 -0700
+Processing by ApiController#index as HTML
+Completed 200 OK in 779ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-21 17:35:38 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 526ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=Taipei" for ::1 at 2015-07-21 17:36:23 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"Taipei"}
+Completed 200 OK in 1058ms (Views: 4.7ms | ActiveRecord: 0.0ms)
