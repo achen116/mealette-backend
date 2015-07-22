@@ -1,6 +1,7 @@
 class ApiController < ApplicationController
 
   def index
+    # Check for geolocation ====================================================
     if params[:address]
       geocodeResult = Geocoder.search(params[:address])
 
@@ -17,18 +18,33 @@ class ApiController < ApplicationController
 
     coordinates = { latitude: latitude, longitude: longitude }
 
+    # Check for category filter ===============================================
     if params[:category]
       category = {term: params[:category]}
     else
       category = {term: 'food'}
     end
 
+    # Check for shuffle =======================================================
+    x = 0
+    y = 9
+    result_range = x..y
+
+    counter = params[:repopulate].to_i if params[:repopulate]
+
+    if params[:repopulate]
+        x += counter * 10
+        y += counter * 10
+        result_range = x..y
+    end
+
+    # Yelp API Query ==========================================================
     result = Yelp.client.search_by_coordinates(coordinates, category)
 
     if !result.businesses || result.businesses.length < 10
       return render json: {error: "No businesses found", status: 400}
     else
-      return render json: result.businesses[0..9]
+      return render json: result.businesses[result_range]
     end
   end
 
