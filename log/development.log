@@ -2913,3 +2913,564 @@ Started GET "/api?lat=37.7841336&lon=-122.3957437&category=Fishing" for ::1 at 2
 Processing by ApiController#index as HTML
   Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "category"=>"Fishing"}
 Completed 200 OK in 469ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from service at /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 11:28:14 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 713ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&category=pho" for ::1 at 2015-07-22 11:28:33 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "category"=>"pho"}
+Completed 200 OK in 429ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&category=pho&repopulate=true" for ::1 at 2015-07-22 11:28:54 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "category"=>"pho", "repopulate"=>"true"}
+Completed 200 OK in 361ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 11:31:31 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 604ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&category=ramen" for ::1 at 2015-07-22 11:31:39 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "category"=>"ramen"}
+Completed 200 OK in 581ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&category=ramen&repopulate=true" for ::1 at 2015-07-22 11:31:49 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "category"=>"ramen", "repopulate"=>"true"}
+Completed 200 OK in 488ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 11:32:32 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 712ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&category=steak" for ::1 at 2015-07-22 11:32:47 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "category"=>"steak"}
+Completed 200 OK in 613ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&category=steak&repopulate=true" for ::1 at 2015-07-22 11:33:04 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "category"=>"steak", "repopulate"=>"true"}
+Completed 200 OK in 532ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&category=steak&repopulate=true" for ::1 at 2015-07-22 11:33:15 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "category"=>"steak", "repopulate"=>"true"}
+Completed 200 OK in 637ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&category=steak&repopulate=true" for ::1 at 2015-07-22 11:33:28 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "category"=>"steak", "repopulate"=>"true"}
+Completed 200 OK in 1011ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 11:36:11 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 696ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&category=tea" for ::1 at 2015-07-22 11:36:24 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "category"=>"tea"}
+Completed 200 OK in 472ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&category=tea&repopulate=true" for ::1 at 2015-07-22 11:36:34 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "category"=>"tea", "repopulate"=>"true"}
+Completed 200 OK in 521ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&category=tea&repopulate=true" for ::1 at 2015-07-22 11:36:41 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "category"=>"tea", "repopulate"=>"true"}
+Completed 200 OK in 547ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 11:38:01 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 463ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&category=coffee" for ::1 at 2015-07-22 11:38:11 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "category"=>"coffee"}
+Completed 200 OK in 563ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&category=coffee&repopulate=true" for ::1 at 2015-07-22 11:38:17 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "category"=>"coffee", "repopulate"=>"true"}
+Completed 200 OK in 540ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&category=coffee&repopulate=true" for ::1 at 2015-07-22 11:38:24 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "category"=>"coffee", "repopulate"=>"true"}
+Completed 200 OK in 456ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 11:44:28 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 1002ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&repopulate=NaN" for ::1 at 2015-07-22 11:44:36 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "repopulate"=>"NaN"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+TypeError (String can't be coerced into Fixnum):
+  app/controllers/api_controller.rb:40:in `+'
+  app/controllers/api_controller.rb:40:in `index'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.8ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 11:46:01 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 922ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&repopulate=NaN" for ::1 at 2015-07-22 11:46:06 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "repopulate"=>"NaN"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+TypeError (String can't be coerced into Fixnum):
+  app/controllers/api_controller.rb:40:in `+'
+  app/controllers/api_controller.rb:40:in `index'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.5ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 11:46:41 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 653ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&repopulate=NaN" for ::1 at 2015-07-22 11:46:52 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "repopulate"=>"NaN"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+TypeError (String can't be coerced into Fixnum):
+  app/controllers/api_controller.rb:40:in `+'
+  app/controllers/api_controller.rb:40:in `index'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.6ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 11:47:24 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 1028ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&repopulate=NaN" for ::1 at 2015-07-22 11:48:24 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "repopulate"=>"NaN"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+TypeError (String can't be coerced into Fixnum):
+  app/controllers/api_controller.rb:40:in `+'
+  app/controllers/api_controller.rb:40:in `index'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.4ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 11:48:27 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 1035ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&repopulate=NaN" for ::1 at 2015-07-22 11:48:43 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "repopulate"=>"NaN"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+TypeError (String can't be coerced into Fixnum):
+  app/controllers/api_controller.rb:40:in `+'
+  app/controllers/api_controller.rb:40:in `index'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.5ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 11:49:59 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 722ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&repopulate=NaN" for ::1 at 2015-07-22 11:51:00 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "repopulate"=>"NaN"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+TypeError (String can't be coerced into Fixnum):
+  app/controllers/api_controller.rb:40:in `+'
+  app/controllers/api_controller.rb:40:in `index'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.9ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 11:51:14 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 606ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&repopulate=1" for ::1 at 2015-07-22 11:55:37 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "repopulate"=>"1"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+TypeError (String can't be coerced into Fixnum):
+  app/controllers/api_controller.rb:40:in `+'
+  app/controllers/api_controller.rb:40:in `index'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.2ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 11:55:42 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 728ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&category=" for ::1 at 2015-07-22 11:57:55 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "category"=>""}
+Completed 200 OK in 561ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 11:58:01 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 756ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&repopulate=1" for ::1 at 2015-07-22 11:58:36 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "repopulate"=>"1"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+TypeError (String can't be coerced into Fixnum):
+  app/controllers/api_controller.rb:40:in `+'
+  app/controllers/api_controller.rb:40:in `index'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.3ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 11:59:25 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 916ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 11:59:28 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 797ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&repopulate=1" for ::1 at 2015-07-22 11:59:38 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "repopulate"=>"1"}
+Completed 200 OK in 845ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&repopulate=2" for ::1 at 2015-07-22 12:00:02 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "repopulate"=>"2"}
+Completed 200 OK in 661ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 12:01:13 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 796ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&repopulate=1" for ::1 at 2015-07-22 12:01:19 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "repopulate"=>"1"}
+Completed 200 OK in 835ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&repopulate=2" for ::1 at 2015-07-22 12:01:26 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "repopulate"=>"2"}
+Completed 200 OK in 807ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 12:01:51 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 630ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&repopulate=1" for ::1 at 2015-07-22 12:01:56 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "repopulate"=>"1"}
+Completed 200 OK in 550ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 12:02:51 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 706ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&repopulate=1" for ::1 at 2015-07-22 12:03:02 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "repopulate"=>"1"}
+Completed 200 OK in 655ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&repopulate=2" for ::1 at 2015-07-22 12:03:08 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "repopulate"=>"2"}
+Completed 200 OK in 605ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 12:03:40 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 780ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=taipei" for ::1 at 2015-07-22 12:04:07 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"taipei"}
+Completed 200 OK in 1979ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=taipei&repopulate=NaN" for ::1 at 2015-07-22 12:04:24 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"taipei", "repopulate"=>"NaN"}
+Completed 200 OK in 739ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=taipei&repopulate=NaN" for ::1 at 2015-07-22 12:04:37 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"taipei", "repopulate"=>"NaN"}
+Completed 200 OK in 631ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 12:09:12 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 670ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 12:09:16 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 635ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=boston" for ::1 at 2015-07-22 12:09:36 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"boston"}
+Completed 200 OK in 774ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=boston&repopulate=NaN" for ::1 at 2015-07-22 12:11:07 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"boston", "repopulate"=>"NaN"}
+Completed 200 OK in 1029ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 12:11:10 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 932ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=michigan" for ::1 at 2015-07-22 12:14:06 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"michigan"}
+Completed 200 OK in 584ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 12:15:31 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 963ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 12:15:34 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 547ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=indiana" for ::1 at 2015-07-22 12:16:25 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"indiana"}
+Completed 200 OK in 604ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=indiana&repopulate=1" for ::1 at 2015-07-22 12:16:39 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"indiana", "repopulate"=>"1"}
+Completed 200 OK in 569ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 12:17:05 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 413ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 12:17:09 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 572ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=little+tokyo%2C+ca" for ::1 at 2015-07-22 12:17:22 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"little tokyo, ca"}
+Completed 200 OK in 830ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=little+tokyo%2C+ca&repopulate=1" for ::1 at 2015-07-22 12:17:40 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"little tokyo, ca", "repopulate"=>"1"}
+Completed 200 OK in 751ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=little+tokyo%2C+ca&repopulate=2" for ::1 at 2015-07-22 12:17:50 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"little tokyo, ca", "repopulate"=>"2"}
+Completed 200 OK in 1294ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437" for ::1 at 2015-07-22 12:18:06 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437"}
+Completed 200 OK in 1097ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&repopulate=1" for ::1 at 2015-07-22 12:18:18 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "repopulate"=>"1"}
+Completed 200 OK in 919ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&category=hamburgers" for ::1 at 2015-07-22 12:18:32 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "category"=>"hamburgers"}
+Completed 200 OK in 850ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?lat=37.7841336&lon=-122.3957437&category=hamburgers&repopulate=1" for ::1 at 2015-07-22 12:18:38 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"lat"=>"37.7841336", "lon"=>"-122.3957437", "category"=>"hamburgers", "repopulate"=>"1"}
+Completed 200 OK in 815ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=los+angeles%2C+ca" for ::1 at 2015-07-22 12:18:57 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"los angeles, ca"}
+Completed 200 OK in 1428ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=los+angeles%2C+ca&repopulate=1" for ::1 at 2015-07-22 12:19:07 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"los angeles, ca", "repopulate"=>"1"}
+Completed 200 OK in 1294ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=los+angeles%2C+ca&category=pet+grooming" for ::1 at 2015-07-22 12:19:33 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"los angeles, ca", "category"=>"pet grooming"}
+Completed 200 OK in 946ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=los+angeles%2C+ca&category=pet+grooming&repopulate=1" for ::1 at 2015-07-22 12:19:47 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"los angeles, ca", "category"=>"pet grooming", "repopulate"=>"1"}
+Completed 200 OK in 804ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=san+diego" for ::1 at 2015-07-22 12:20:15 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"san diego"}
+Completed 200 OK in 1089ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=san+diego&repopulate=1" for ::1 at 2015-07-22 12:20:23 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"san diego", "repopulate"=>"1"}
+Completed 200 OK in 915ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=san+diego&category=barbeque" for ::1 at 2015-07-22 12:20:39 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"san diego", "category"=>"barbeque"}
+Completed 200 OK in 884ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api?address=san+diego&category=barbeque&repopulate=1" for ::1 at 2015-07-22 12:20:48 -0700
+Processing by ApiController#index as HTML
+  Parameters: {"address"=>"san diego", "category"=>"barbeque", "repopulate"=>"1"}
+Completed 200 OK in 880ms (Views: 5.3ms | ActiveRecord: 0.0ms)
