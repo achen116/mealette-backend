@@ -16,7 +16,14 @@ class ApiController < ApplicationController
     end
 
     coordinates = { latitude: latitude, longitude: longitude }
-    result = Yelp.client.search_by_coordinates(coordinates)
+
+    if params[:category]
+      category = {term: params[:category]}
+    else
+      category = {term: 'food'}
+    end
+
+    result = Yelp.client.search_by_coordinates(coordinates, category)
 
     if !result.businesses || result.businesses.length < 10
       return render json: {error: "No businesses found", status: 400}
